@@ -11,6 +11,6 @@ public class ApiResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "hello!!!!33333!!!";
+        return "hello!!!!333!!!";
     }
 }
