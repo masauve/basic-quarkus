@@ -17,7 +17,7 @@ components:
           name: hello-greeting-endpoint
           protocol: http
           targetPort: 8080
-          path: /hello/greeting/devspaces-user
+          path: /app
       volumeMounts:
         - name: m2
           path: /home/user/.m2
