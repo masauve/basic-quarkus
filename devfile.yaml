@@ -14,10 +14,10 @@ components:
           protocol: tcp
           targetPort: 5005
         - exposure: public
-          name: hello-greeting-endpoint
+          name: api-endpoint
           protocol: http
           targetPort: 8080
-          path: /app
+          path: /api
       volumeMounts:
         - name: m2
           path: /home/user/.m2
